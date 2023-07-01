@@ -27,8 +27,8 @@ const Counter: React.FC = () => {
       <div className="container">
         <h1 className="title">Counter</h1>
         <p className="counter-num">{state.count}</p>
-        <button type="button" onClick={increment}>+</button>
-        <button type="button" onClick={decrement}>-</button>
+        <button className="btn" type="button" onClick={increment}>+</button>
+        <button className="btn" type="button" onClick={decrement}>-</button>
       </div>
     </>
   );
